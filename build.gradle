@@ -1,0 +1,10 @@
+plugins {
+    id 'java'
+}
+
+group 'ru.iteco.behavioral.state'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
