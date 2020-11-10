@@ -25,6 +25,6 @@ public class InsertMoneyState implements State{
     @Override
     public void getCashe(CopyMashine copyMashine) {
         System.out.println("Получите сдачу");
-        copyMashine.setState(new InsertMoneyState());
+        copyMashine.setState(this);
     }
 }

@@ -16,23 +16,23 @@ public class CopyMashine {
         this.state = state;
     }
 
-    public void insertMoney(CopyMashine copyMashine) {
+    public void insertMoney() {
         state.insertMoney(this);
     }
 
-    public void selectSource(CopyMashine copyMashine) {
+    public void selectSource() {
         state.selectSource(this);
     }
 
-    public void selectDoc(CopyMashine copyMashine) {
+    public void selectDoc() {
         state.selectDoc(this);
     }
 
-    public void зrintDoc(CopyMashine copyMashine) {
+    public void printDoc() {
         state.printDoc(this);
     }
 
-    public void getCashe(CopyMashine copyMashine) {
+    public void getCashe() {
         state.getCashe(this);
     }
 }

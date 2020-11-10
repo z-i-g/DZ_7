@@ -9,7 +9,7 @@ public class SelectDocState implements State{
     @Override
     public void selectSource(CopyMashine copyMashine) {
         System.out.println("Источник изменен!");
-        copyMashine.setState(new SelectDocState());
+        copyMashine.setState(this);
     }
 
     @Override
